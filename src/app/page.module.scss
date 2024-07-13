@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .card {
+    padding: 0.5rem;
+
+    .title {
+      display: flex;
+      align-items: center;
+      .arrowRight {
+        width: 0;
+        height: 0;
+        border: 0.8rem solid transparent;
+        border-left-color: #000;
+      }
+    }
+    .wrapper {
+      margin-top: 0.7rem;
+      display: flex;
+      flex-direction: row;
+      .route {
+        list-style-type: none;
+        margin-right: 1rem;
+        &:hover {
+          color: #00000090;
+        }
+      }
+    }
+  }
+}
