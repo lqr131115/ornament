@@ -1,0 +1,21 @@
+.main {
+  min-height: 100vh;
+  background-color: black;
+  .container {
+    display: flex;
+  }
+
+  .videoWrapper,
+  .canvasWrapper {
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testVideo {
+    width: 60%;
+    height: 80%;
+  }
+}
